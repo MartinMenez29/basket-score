@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #1B244A;
+    color: white;
+}
+
+.team {
+    font-size: 25px;
+    margin: 20px 10px -60px 10px
+}
+
+@import url('https://fonts.cdnfonts.com/css/digital-7');
+
+.score {
+    border: solid transparent ;
+    text-align: center;
+    font-family: 'Digital-7', monospace;
+    font-size: 80px;
+    color: #ff4B61;
+    text-shadow: 0px 0px 5px red;
+    padding: 10px 30px 10px 30px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    appearance: none;
+    background: transparent;
+    border: 1.5px solid #b0b7d6;
+    font-family: 'Digital-7', monospace;
+    color: #cdd2ef;
+    font-size: 18px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 0px 0px 20px 0px;
+}
